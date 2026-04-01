@@ -7,13 +7,13 @@ layout: default
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.title }} - {{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/style.css">
+    <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
     {% seo %}
 </head>
 <body>
     <header>
-        <h1><a href="/" style="color: white; text-decoration: none;">{{ site.title }}</a></h1>
+        <h1><a href="/" style="color: white; text-decoration: none; background: none; -webkit-text-fill-color: white;">{{ site.title }}</a></h1>
         <p>{{ site.description }}</p>
         <nav>
             <a href="/">Home</a>
@@ -31,7 +31,7 @@ layout: default
 
     <footer>
         <p>&copy; {{ "now" | date: "%Y" }} {{ site.author }}. All rights reserved.</p>
-        <p><a href="/feed.xml">RSS Feed</a></p>
+        <p><a href="/feed.xml">📡 RSS Feed</a></p>
     </footer>
 </body>
 </html>
