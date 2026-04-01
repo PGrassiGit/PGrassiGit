@@ -1,0 +1,43 @@
+# Generated with Jekyll Portfolio Manager
+# GitHub Pages Portfolio for Art, News, Projects & CV
+
+## Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+## Repository
+# Update this to your GitHub username
+# github: yourusername
+
+## Theme
+theme: minima
+
+## Version Control
+.DS_Store
+.jekyll-cache/
+.sass-cache/
+_site/
+*.gem
+*.gemspec
+.bundle/
+vendor/
+.env
+.ruby-version
+
+## Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+## OS
+.DS_Store
+Thumbs.db
+
+## IDE
+*.sublime-project
+*.sublime-workspace
