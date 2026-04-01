@@ -8,7 +8,7 @@ excerpt: A stunning digital landscape piece exploring the intersection of nature
 
 # Example Artwork - Digital Landscape
 
-This is an example art post. Replace this with your actual artwork descriptions and details.
+Exemplo de arte da galeria pasta/images
 
 ## About This Piece
 
@@ -24,8 +24,12 @@ Share the technical details of how you created this work.
 
 ## Image
 
-[Add your image here with: ![Alt text](/assets/images/artwork-name.jpg)]
-
+[Add your image here with: ![imagem da galeria](/assets/images/galeria.jpg)]
+title: Artwork Title
+date: 2026-03-15
+category: digital
+tags: [tag1, tag2, tag3]
+excerpt: A brief description
 ---
 
-*Created: March 15, 2026*
+*Created: March 31, 2026*
