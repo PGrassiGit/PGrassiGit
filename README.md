@@ -1,50 +1,42 @@
-﻿# Pedro - Data Engineer
+# Pedro Grassi
 
-I build data pipelines, automation, and data platform tools with Python, SQL, APIs, AWS, and Airflow.
+Data Engineer focused on Python, SQL, APIs, AWS, Airflow, automation, and data quality.
 
-My current portfolio uses one domain: SaaS billing analytics. I use it to show how data moves from API ingestion to orchestration, cloud event processing, warehouse modeling, data quality, and metadata.
+![Python](https://img.shields.io/badge/Python-pipelines-blue)
+![SQL](https://img.shields.io/badge/SQL-modeling-informational)
+![AWS](https://img.shields.io/badge/AWS-data%20systems-orange)
+![Airflow](https://img.shields.io/badge/Airflow-orchestration-lightgrey)
+
+I build small data systems that are easy to run, test, and review. My portfolio uses one practical domain, SaaS billing analytics, to show the path from ingestion to reporting and platform operations.
 
 ## Portfolio Map
 
-| Area | Project | What it shows |
+| Area | Repo | What to review |
 | --- | --- | --- |
-| API ingestion | `api-ingestion-pipeline` | Cursor pagination, retries, validation, dead-letter records |
-| Warehouse modeling | `sql-elt-warehouse` | MRR, churn, invoice collection, customer revenue |
-| Orchestration | `airflow-orchestration-demo` | DAG design, quality gates, backfill-friendly task logic |
-| AWS processing | `aws-serverless-pipeline` | S3 zones, SQS DLQ, Lambda event handling, IAM |
-| Data quality | `data-quality-contracts-lab` | JSON contracts, quarantine, validation reports |
-| Metadata | `metadata-lineage-catalog` | CSV profiling, SQL dependency parsing, catalog generation |
+| API ingestion | [api-ingestion-pipeline](https://github.com/PGrassiGit/api-ingestion-pipeline) | cursor sync, retry handling, dead-letter records |
+| Warehouse modeling | [sql-elt-warehouse](https://github.com/PGrassiGit/sql-elt-warehouse) | MRR, churn, invoice collection, SQL checks |
+| Orchestration | [airflow-orchestration-demo](https://github.com/PGrassiGit/airflow-orchestration-demo) | task boundaries, quality gate, retry settings |
+| AWS processing | [aws-serverless-pipeline](https://github.com/PGrassiGit/aws-serverless-pipeline) | S3 zones, SQS DLQ, Lambda event handling |
+| Data quality | [data-quality-contracts-lab](https://github.com/PGrassiGit/data-quality-contracts-lab) | contracts, referential checks, quarantine flow |
+| Metadata | [metadata-lineage-catalog](https://github.com/PGrassiGit/metadata-lineage-catalog) | SQL lineage, data dictionary, catalog output |
 
-## Main Skills
+## Main Signals
 
-- Python pipeline code and CLI tools
-- SQL modeling and metric definitions
-- API ingestion and failure handling
-- Airflow orchestration
-- AWS event-driven data processing
-- Data quality checks and metadata systems
-
-## How I Build
-
-- I keep projects local-first.
+- I separate source data, business logic, and reporting outputs.
 - I write tests for failure paths, not only happy paths.
-- I separate orchestration from business logic.
-- I document tradeoffs and production notes.
-- I avoid secrets and account-specific values in code.
+- I keep cloud examples deployable later, but runnable locally first.
+- I document tradeoffs, assumptions, and production notes.
+- I avoid secrets, personal data, and account-specific values in repos.
 
-## Featured Repos
+## Suggested Review Path
 
-- `https://github.com/PGrassiGit/data-engineering-portfolio`
-- `https://github.com/PGrassiGit/api-ingestion-pipeline`
-- `https://github.com/PGrassiGit/sql-elt-warehouse`
-- `https://github.com/PGrassiGit/airflow-orchestration-demo`
-- `https://github.com/PGrassiGit/aws-serverless-pipeline`
-- `https://github.com/PGrassiGit/data-quality-contracts-lab`
-- `https://github.com/PGrassiGit/metadata-lineage-catalog`
+1. Start with [sql-elt-warehouse](https://github.com/PGrassiGit/sql-elt-warehouse) for analytics modeling and metrics.
+2. Review [api-ingestion-pipeline](https://github.com/PGrassiGit/api-ingestion-pipeline) for ingestion reliability.
+3. Check [data-quality-contracts-lab](https://github.com/PGrassiGit/data-quality-contracts-lab) and [metadata-lineage-catalog](https://github.com/PGrassiGit/metadata-lineage-catalog) for platform thinking.
+4. Use [airflow-orchestration-demo](https://github.com/PGrassiGit/airflow-orchestration-demo) and [aws-serverless-pipeline](https://github.com/PGrassiGit/aws-serverless-pipeline) to evaluate orchestration and AWS design.
 
 ## Portuguese
 
-Eu construo pipelines, automacoes e ferramentas de plataforma de dados com Python, SQL, APIs, AWS e Airflow.
+Sou Engenheiro de Dados com foco em Python, SQL, APIs, AWS, Airflow, automacao e qualidade de dados.
 
-Meu portfolio usa o dominio de billing SaaS para mostrar ingestao, orquestracao, processamento em cloud, modelagem, qualidade e metadata.
-
+Meu portfolio usa billing SaaS como dominio unico para mostrar ingestao, modelagem, orquestracao, cloud, qualidade e metadata.
