@@ -13,6 +13,7 @@ I build small data systems that are easy to run, test, and review. My portfolio 
 
 | Area | Repo | What to review |
 | --- | --- | --- |
+| Local web app | [billing-data-workbench](https://github.com/PGrassiGit/billing-data-workbench) | FastAPI UI, validation runs, profiling, reports |
 | API ingestion | [api-ingestion-pipeline](https://github.com/PGrassiGit/api-ingestion-pipeline) | cursor sync, retry handling, dead-letter records |
 | Warehouse modeling | [sql-elt-warehouse](https://github.com/PGrassiGit/sql-elt-warehouse) | MRR, churn, invoice collection, SQL checks |
 | Orchestration | [airflow-orchestration-demo](https://github.com/PGrassiGit/airflow-orchestration-demo) | task boundaries, quality gate, retry settings |
@@ -30,10 +31,11 @@ I build small data systems that are easy to run, test, and review. My portfolio 
 
 ## Suggested Review Path
 
-1. Start with [sql-elt-warehouse](https://github.com/PGrassiGit/sql-elt-warehouse) for analytics modeling and metrics.
-2. Review [api-ingestion-pipeline](https://github.com/PGrassiGit/api-ingestion-pipeline) for ingestion reliability.
-3. Check [data-quality-contracts-lab](https://github.com/PGrassiGit/data-quality-contracts-lab) and [metadata-lineage-catalog](https://github.com/PGrassiGit/metadata-lineage-catalog) for platform thinking.
-4. Use [airflow-orchestration-demo](https://github.com/PGrassiGit/airflow-orchestration-demo) and [aws-serverless-pipeline](https://github.com/PGrassiGit/aws-serverless-pipeline) to evaluate orchestration and AWS design.
+1. Start with [billing-data-workbench](https://github.com/PGrassiGit/billing-data-workbench) for the interactive local app.
+2. Review [sql-elt-warehouse](https://github.com/PGrassiGit/sql-elt-warehouse) for analytics modeling and metrics.
+3. Open [api-ingestion-pipeline](https://github.com/PGrassiGit/api-ingestion-pipeline) for ingestion reliability.
+4. Check [data-quality-contracts-lab](https://github.com/PGrassiGit/data-quality-contracts-lab) and [metadata-lineage-catalog](https://github.com/PGrassiGit/metadata-lineage-catalog) for platform thinking.
+5. Use [airflow-orchestration-demo](https://github.com/PGrassiGit/airflow-orchestration-demo) and [aws-serverless-pipeline](https://github.com/PGrassiGit/aws-serverless-pipeline) to evaluate orchestration and AWS design.
 
 ## Portuguese
 
